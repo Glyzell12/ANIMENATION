@@ -7,7 +7,7 @@ const Discover = () => {
       {/* Search Bar */}
       <View className="flex-row items-center bg-white p-3 rounded-md mt-5 shadow-md">
         <Image 
-          source={require('../../assets/search.png')} 
+          source={require('../../assets/images/search.png')} 
           className="w-5 h-5 mr-2" 
         />
         <TextInput 
@@ -25,21 +25,21 @@ const Discover = () => {
           <View className="flex-row items-center justify-between mb-2">
             <Text className="text-white font-semibold">Naruto</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/x.png')} className="w-4 h-4" />
+              <Image source={require('../../assets/images/x.png')} className="w-4 h-4" />
             </TouchableOpacity>
           </View>
 
           <View className="flex-row items-center justify-between mb-2">
             <Text className="text-white font-semibold">One Piece</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/x.png')} className="w-4 h-4" />
+              <Image source={require('../../assets/images/x.png')} className="w-4 h-4" />
             </TouchableOpacity>
           </View>
 
           <View className="flex-row items-center justify-between">
             <Text className="text-white font-semibold">Attack on Titan</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/x.png')} className="w-4 h-4" />
+              <Image source={require('../../assets/images/x.png')} className="w-4 h-4" />
             </TouchableOpacity>
           </View>
         </View>
@@ -51,12 +51,12 @@ const Discover = () => {
         {/* My Hero Academia */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/mha.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/mha.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">My Hero Academia</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -64,12 +64,12 @@ const Discover = () => {
         {/* Jobless Reincarnation */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/jobless.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/jobless.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Jobless Reincarnation</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -77,12 +77,12 @@ const Discover = () => {
         {/* Attack on Titan */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/aot.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/aot.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Attack on Titan</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -90,12 +90,12 @@ const Discover = () => {
         {/* Dr. Stone */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/stone.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/stone.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Dr. Stone</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -103,12 +103,12 @@ const Discover = () => {
         {/* Demon Slayer */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/demon.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/demon.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Demon Slayer</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -120,12 +120,12 @@ const Discover = () => {
         {/* Frieren: Journeys End */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/end.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/end.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Frieren: Journeys End</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -133,12 +133,12 @@ const Discover = () => {
         {/* Solo Leveling */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/solo.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/solo.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Solo Leveling</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -146,12 +146,12 @@ const Discover = () => {
         {/* Mashle */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/mashle.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/mashle.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Mashle</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -159,12 +159,12 @@ const Discover = () => {
         {/* Jujutsu Kaisen */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/jjk.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/jjk.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Jujutsu Kaisen</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>

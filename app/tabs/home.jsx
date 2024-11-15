@@ -6,7 +6,7 @@ const Home = () => {
     <ScrollView className="flex-1 bg-[#001440] p-5">
       {/* Logo at the Top */}
       <Image 
-        source={require('../../assets/logos.png')} 
+        source={require('../../assets/images/logos.png')} 
         className="w-16 h-16 mt-10" 
         style={{ resizeMode: 'contain', height: 50, width: 100 }} 
       />
@@ -16,7 +16,7 @@ const Home = () => {
 
       {/* Rated G Box */}
       <View className="flex-row items-center bg-green-500 p-2 rounded-md mt-5 shadow-md">
-        <Image source={require('../../assets/child.png')} className="w-6 h-6 mr-2" />
+        <Image source={require('../../assets/images/child.png')} className="w-6 h-6 mr-2" />
         <Text className="text-white text-lg font-semibold">Rated G</Text>
       </View>
 
@@ -25,12 +25,12 @@ const Home = () => {
         {/* Doraemon */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/doraemon.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/doraemon.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Doraemon</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -38,12 +38,12 @@ const Home = () => {
         {/* My Hero Academia */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/mha.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/mha.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">My Hero Academia</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -51,12 +51,12 @@ const Home = () => {
         {/* Spirited Away */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/spirit.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/spirit.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Spirited Away</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -64,12 +64,12 @@ const Home = () => {
         {/* Pokemon */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/pokemon.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/pokemon.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Pokemon</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -77,12 +77,12 @@ const Home = () => {
         {/* Howl's Moving Castle */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/howl.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/howl.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Howl's Moving Castle</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -90,7 +90,7 @@ const Home = () => {
 
       {/* Shonen/Shojo Box */}
       <View className="flex-row items-center bg-orange-500 p-2 rounded-md mt-8 shadow-md">
-        <Image source={require('../../assets/teen.png')} className="w-6 h-6 mr-2" />
+        <Image source={require('../../assets/images/teen.png')} className="w-6 h-6 mr-2" />
         <Text className="text-white text-lg font-semibold">Shonen/Shojo</Text>
       </View>
 
@@ -99,12 +99,12 @@ const Home = () => {
         {/* Black Butler */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/butler.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/butler.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Black Butler</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -112,12 +112,12 @@ const Home = () => {
         {/* Attack on Titan */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/aot.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/aot.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Attack on Titan</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -125,12 +125,12 @@ const Home = () => {
         {/* Demon Slayer */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/demon.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/demon.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Demon Slayer</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -138,12 +138,12 @@ const Home = () => {
         {/* One Piece */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/piece.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/piece.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">One Piece</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -151,12 +151,12 @@ const Home = () => {
         {/* Love is War */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/love.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/love.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Love is War</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -164,7 +164,7 @@ const Home = () => {
 
       {/* Mature Content Box */}
       <View className="flex-row items-center bg-red-600 p-2 rounded-md mt-8 shadow-md">
-        <Image source={require('../../assets/mature.png')} className="w-6 h-6 mr-2" />
+        <Image source={require('../../assets/images/mature.png')} className="w-6 h-6 mr-2" />
         <Text className="text-white text-lg font-semibold">Mature Content</Text>
       </View>
 
@@ -173,12 +173,12 @@ const Home = () => {
         {/* Prison School */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/prison.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/prison.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Prison School</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -186,12 +186,12 @@ const Home = () => {
         {/* Parasyte */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/parasyte.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/parasyte.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Parasyte</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -199,12 +199,12 @@ const Home = () => {
         {/* Highschool DxD */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/highschool.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/highschool.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Highschool DxD</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -212,12 +212,12 @@ const Home = () => {
         {/* Blood-C */}
         <View className="mr-4">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/blood.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/blood.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Blood-C</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
@@ -225,12 +225,12 @@ const Home = () => {
         {/* Tokyo Ghoul */}
         <View className="mr-4 mb-10">
           <TouchableOpacity activeOpacity={0.8} className="rounded-md shadow-lg">
-            <Image source={require('../../assets/tokyo.jpg')} className="w-40 h-40 rounded-md" />
+            <Image source={require('../../assets/images/tokyo.jpg')} className="w-40 h-40 rounded-md" />
           </TouchableOpacity>
           <View className="flex-row items-center justify-between mt-2">
             <Text className="text-white font-semibold">Tokyo Ghoul</Text>
             <TouchableOpacity activeOpacity={0.7}>
-              <Image source={require('../../assets/heart.png')} className="w-6 h-6" />
+              <Image source={require('../../assets/images/heart.png')} className="w-6 h-6" />
             </TouchableOpacity>
           </View>
         </View>
