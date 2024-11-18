@@ -19,13 +19,13 @@ AnimeNation Mobile App.
 * HTML, CSS and JS
 
 # Home Screen
-<img src="assets/images/screenshot/onboarding.jpg">  
+<img src="assets/screenshots/onboarding.jpg">  
 
 # Sign Up Screen
-<img src="assets/images/screenshot/signup.jpg">  
+<img src="assets/screenshots/signup.jpg">  
 
 # Sign In Screen
-<img src="assets/images/screenshot/login.jpg">  
+<img src="assets/screenshots/login.jpg">  
 
 # Tabs Screen
-<img src="assets/images/screenshot/tabs.jpg">  
+<img src="assets/screenshots/tabs.jpg">  
